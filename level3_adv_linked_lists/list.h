@@ -13,19 +13,27 @@ struct ll_node *ll_find(struct ll_node *node, int value);
 
 
 /**
- * TODO: Javadoc
+ * @param data - the value to use inside user-created ll_node
+ * Creates new ll_node with given data
  */
 struct ll_node *ll_create(int data);
 /**
- * TODO: Javadoc
+ * @param *list - list new node must be appeneded to 
+ * @param data - data needed inside of *list
+ * appends new node to *list using data
+ * 
  */
 struct ll_node *ll_append(struct ll_node *list, int data);
 /**
- * TODO: Javadoc
+ * @param *node - the list to be destroyed
+ * destroy all nodes in list
+ * 
  */
 void            ll_destroy(struct ll_node *node);
 /**
- * TODO: Javadoc
+ * @param *head - given list
+ * @param value - data for node that should be deleted
+ * delete a single node based of the key value
  */
 struct ll_node *ll_delete(struct ll_node *head, int value);
 
