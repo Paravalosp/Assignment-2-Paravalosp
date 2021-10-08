@@ -1,0 +1,108 @@
+LOG OK
+test_range
+  BUILDING
+  RUNNING
+    test_range.c:51:test_range_zero:PASS
+    test_range.c:52:test_range_one:PASS
+    test_range.c:53:test_range_four:PASS
+    
+    -----------------------
+    3 Tests 0 Failures 0 Ignored 
+    OK
+  OK (.5)
+
+test_set_max
+  BUILDING
+  RUNNING
+    test_set_max.c:36:test_set_max1:PASS
+    test_set_max.c:37:test_set_max2:PASS
+    test_set_max.c:38:test_set_max_inval:PASS
+    
+    -----------------------
+    3 Tests 0 Failures 0 Ignored 
+    OK
+  OK (1.0)
+
+test_capitalize
+  BUILDING
+  RUNNING
+    test_capitalize.c:64:test_null:PASS
+    test_capitalize.c:65:test_empty:PASS
+    test_capitalize.c:66:test_abc:PASS
+    test_capitalize.c:67:test_abc_DEF:PASS
+    
+    -----------------------
+    4 Tests 0 Failures 0 Ignored 
+    OK
+  OK (2.0)
+
+test_list_basic
+  BUILDING
+  RUNNING
+    test_list_basic.c:175:test_zero_head:PASS
+    test_list_basic.c:176:test_one_head:PASS
+    test_list_basic.c:177:test_two_head:PASS
+    test_list_basic.c:178:test_four_head:PASS
+    test_list_basic.c:180:test_zero_tail:PASS
+    test_list_basic.c:181:test_one_tail:PASS
+    test_list_basic.c:182:test_two_tail:PASS
+    test_list_basic.c:183:test_four_tail:PASS
+    test_list_basic.c:185:test_zero:PASS
+    test_list_basic.c:186:test_one:PASS
+    test_list_basic.c:187:test_two:PASS
+    test_list_basic.c:188:test_four:PASS
+    
+    -----------------------
+    12 Tests 0 Failures 0 Ignored 
+    OK
+  OK (3.5)
+
+test_list_find
+  BUILDING
+  RUNNING
+    test_list_find.c:168:test_zero_find:PASS
+    test_list_find.c:169:test_one_find_ok:PASS
+    test_list_find.c:170:test_one_find_fail:PASS
+    test_list_find.c:172:test_two_find_ok0:PASS
+    test_list_find.c:173:test_two_find_ok1:PASS
+    test_list_find.c:174:test_two_find_fail:PASS
+    test_list_find.c:176:test_four_find_ok0:PASS
+    test_list_find.c:177:test_four_find_ok1:PASS
+    test_list_find.c:178:test_four_find_ok2:PASS
+    test_list_find.c:179:test_four_find_fail:PASS
+    
+    -----------------------
+    10 Tests 0 Failures 0 Ignored 
+    OK
+  OK (5.0)
+
+test_list_create_destroy
+  BUILDING
+  RUNNING
+    test_list_create_destroy.c:49:test_fail_null:PASS
+    test_list_create_destroy.c:50:test_one_done:PASS
+    test_list_create_destroy.c:51:test_four_done:PASS
+    
+    -----------------------
+    3 Tests 0 Failures 0 Ignored 
+    OK
+  OK (6.5)
+
+test_list_delete
+  BUILDING
+  RUNNING
+    test_list_delete.c:122:test_one:PASS
+    test_list_delete.c:124:test_two_head:PASS
+    test_list_delete.c:125:test_two_tail:PASS
+    test_list_delete.c:127:test_four_head:PASS
+    test_list_delete.c:128:test_four_middle:PASS
+    test_list_delete.c:129:test_four_tail:PASS
+    
+    -----------------------
+    6 Tests 0 Failures 0 Ignored 
+    OK
+  OK (8.0)
+
+Specification 8.0
+Documentation 2.0
+Total 10.0
