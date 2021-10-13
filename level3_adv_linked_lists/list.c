@@ -48,17 +48,17 @@ struct ll_node *ll_delete(struct ll_node *head, int value) {
 
     struct ll_node *temp = head, *prev;
 
-    while (temp != NULL && temp->data == value)
-    {
+    while (temp != NULL && temp->data == value){
+    
         head = temp->next; 
         free(temp);        
         temp = head;       
     }
 
-    while (temp != NULL)
-    {
-        while (temp != NULL && temp->data != value)
-        {
+    while (temp != NULL){
+    
+        while (temp != NULL && temp->data != value){
+        
             prev = temp;
             temp = temp->next;
         }
